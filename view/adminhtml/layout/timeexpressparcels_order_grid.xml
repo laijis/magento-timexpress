@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="formkey"/>
+    <update handle="timeexpressparcels_order_grid_block"/>
+    <body>
+        <referenceContainer name="root">
+            <block class="Magento\Backend\Block\Widget\Grid\Container" 
+                name="timeexpressparcels_order.grid.container" 
+                template="Magento_Backend::widget/grid/container/empty.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
